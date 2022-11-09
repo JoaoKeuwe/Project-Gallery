@@ -25,6 +25,9 @@ body
   justify-content: space-between
   @include mixins.container
 
+  @include mixins.mobile
+    padding: 1.1rem
+
   &-brand
     color: variables.$primary-color
     font-size: 3rem
@@ -34,6 +37,9 @@ body
     ul
       height: 100%
       @include mixins.flex-center
+
+      @include mixins.mobile
+        display: none
 
       li
         margin: 0 1rem
@@ -51,6 +57,9 @@ body
     ul
       @include mixins.flex-center
       height: 100%
+
+      @include mixins.mobile
+        display: none
 
       li
         margin: 0 1rem
@@ -76,6 +85,10 @@ body
     @include mixins.flex-center
     flex-direction: column
     color: variables.$primary-color
+
+    @include mixins.mobile
+     width: 90%
+     margin-bottom: 6%
 
     @include mixins.mobile
       width: 90%
@@ -123,4 +136,12 @@ body
     @include mixins.bg-img('pessoas.jpg')
 
   #card-9
-    @include mixins.bg-img('refiecoes.jpg')
+    @include mixins.bg-img('refeicoes.jpg')
+
+footer 
+  text-align: center
+  padding-bottom: 2rem
+
+  span
+    font-weight: bold
+    color: variables.$secondary-color
