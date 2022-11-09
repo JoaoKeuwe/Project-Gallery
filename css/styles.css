@@ -130,7 +130,7 @@ body ul {
   color: #000;
 }
 .gallery #card-1 {
-  background-image: url("../img/animais.jpg");
+  background-image: url("../img/animais.webp");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -140,10 +140,10 @@ body ul {
 .gallery #card-1:hover {
   background-size: 110%;
   filter: grayscale(0%);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/animais.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/animais.webp");
 }
 .gallery #card-2 {
-  background-image: url("../img/arquitetura.jpg");
+  background-image: url("../img/arquitetura.webp");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -153,10 +153,10 @@ body ul {
 .gallery #card-2:hover {
   background-size: 110%;
   filter: grayscale(0%);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/arquitetura.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/arquitetura.webp");
 }
 .gallery #card-3 {
-  background-image: url("../img/cidade.jpg");
+  background-image: url("../img/cidade.webp");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -166,10 +166,10 @@ body ul {
 .gallery #card-3:hover {
   background-size: 110%;
   filter: grayscale(0%);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cidade.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/cidade.webp");
 }
 .gallery #card-4 {
-  background-image: url("../img/decoracao.jpg");
+  background-image: url("../img/decoracao.webp");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -179,10 +179,10 @@ body ul {
 .gallery #card-4:hover {
   background-size: 110%;
   filter: grayscale(0%);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/decoracao.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/decoracao.webp");
 }
 .gallery #card-5 {
-  background-image: url("../img/esportes.jpg");
+  background-image: url("../img/esportes.webp");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -192,10 +192,10 @@ body ul {
 .gallery #card-5:hover {
   background-size: 110%;
   filter: grayscale(0%);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/esportes.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/esportes.webp");
 }
 .gallery #card-6 {
-  background-image: url("../img/natureza.jpg");
+  background-image: url("../img/natureza.webp");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -205,7 +205,7 @@ body ul {
 .gallery #card-6:hover {
   background-size: 110%;
   filter: grayscale(0%);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/natureza.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/natureza.webp");
 }
 .gallery #card-7 {
   background-image: url("../img/paisagem.jpg");
