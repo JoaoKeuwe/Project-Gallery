@@ -28,6 +28,7 @@ body ul {
 @media (max-width: 425px) {
   .header {
     padding: 1.1rem;
+    padding: 1.1rem;
   }
 }
 .header-brand {
@@ -43,12 +44,13 @@ body ul {
 @media (max-width: 425px) {
   .header-navbar ul {
     display: none;
+    display: none;
   }
 }
 .header-navbar ul li {
   margin: 0 1rem;
   text-transform: uppercase;
-  font-size: 1.2rem;
+  font-size: 0.8rem;
 }
 .header-navbar ul li .active {
   color: #20C997;
@@ -65,13 +67,14 @@ body ul {
 @media (max-width: 425px) {
   .header-social-media ul {
     display: none;
+    display: none;
   }
 }
 .header-social-media ul li {
   margin: 0 1rem;
 }
 .header-social-media ul li a:hover {
-  color: #20C997;
+  color: #FFF;
 }
 
 .gallery {
@@ -87,6 +90,7 @@ body ul {
 }
 @media (max-width: 425px) {
   .gallery {
+    flex-direction: column;
     flex-direction: column;
   }
 }
@@ -104,10 +108,6 @@ body ul {
   .gallery-card {
     width: 90%;
     margin-bottom: 6%;
-  }
-}
-@media (max-width: 425px) {
-  .gallery-card {
     width: 90%;
     margin-bottom: 6%;
   }
