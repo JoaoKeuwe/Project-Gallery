@@ -25,6 +25,11 @@ body ul {
   padding: 1.5rem 0;
   margin: 0 auto;
 }
+@media (max-width: 425px) {
+  .header {
+    padding: 1.1rem;
+  }
+}
 .header-brand {
   color: #FFF;
   font-size: 3rem;
@@ -34,6 +39,11 @@ body ul {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+@media (max-width: 425px) {
+  .header-navbar ul {
+    display: none;
+  }
 }
 .header-navbar ul li {
   margin: 0 1rem;
@@ -51,6 +61,11 @@ body ul {
   align-items: center;
   justify-content: center;
   height: 100%;
+}
+@media (max-width: 425px) {
+  .header-social-media ul {
+    display: none;
+  }
 }
 .header-social-media ul li {
   margin: 0 1rem;
@@ -84,6 +99,12 @@ body ul {
   justify-content: center;
   flex-direction: column;
   color: #FFF;
+}
+@media (max-width: 425px) {
+  .gallery-card {
+    width: 90%;
+    margin-bottom: 6%;
+  }
 }
 @media (max-width: 425px) {
   .gallery-card {
@@ -213,7 +234,7 @@ body ul {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/pessoas.jpg");
 }
 .gallery #card-9 {
-  background-image: url("../img/refiecoes.jpg");
+  background-image: url("../img/refeicoes.jpg");
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
@@ -223,7 +244,16 @@ body ul {
 .gallery #card-9:hover {
   background-size: 110%;
   filter: grayscale(0%);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/refiecoes.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/refeicoes.jpg");
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 2rem;
+}
+footer span {
+  font-weight: bold;
+  color: #20C997;
 }
 
 /*# sourceMappingURL=styles.css.map */
