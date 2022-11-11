@@ -5,7 +5,6 @@
  
 <h5>
 Recentemente realizei este projeto responsivo com o intuito de aprender mais sobre a tecnologia Sass do CSS.
-
  O projeto consiste em uma simples página onde simula uma galeria de fotos web.
 <h5/>
 <div/>
